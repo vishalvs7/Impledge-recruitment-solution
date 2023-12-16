@@ -35,36 +35,36 @@ Requirements:
 Python 3.x, jupyter notebook
 
 
-Methods
+Methodology:
 
-    TrieNode Class
-        Description: Represents a node in the trie data structure.
-        Attributes:
-            children: A dictionary to store child nodes.
-            is_end_of_word: A flag indicating the end of a word.
+TrieNode Class
+    Description: Represents a node in the trie data structure.
+    Attributes:
 
-    insert_word:
+        children: A dictionary to store child nodes.
+        is_end_of_word: A flag indicating the end of a word.
 
-        Description: Inserts a word into the trie.
-        Parameters:
-        root: The root node of the trie.
-        word: The word to be inserted.
+insert_word:
 
-    is_compounded_word:
+    Description: Inserts a word into the trie.
+    Parameters:
+    root: The root node of the trie.
+    word: The word to be inserted.
 
-        Description: Checks if a word is a compounded word.
-        Parameters:
-        root: The root node of the trie.
-        word: The word to be checked.
-        Returns: True if the word is compounded, False otherwise.
+is_compounded_word:
 
-    find_longest_compounded_word:
+    Description: Checks if a word is a compounded word.
+    Parameters:
+    root: The root node of the trie.
+    word: The word to be checked.
+    Returns: True if the word is compounded, False otherwise.
 
-        Description: Finds the longest and second-longest compounded words from a list.
-        Parameters:
-        words: A list of words to be processed.
-        Returns: A tuple containing the longest and second-longest compounded words.
+find_longest_compounded_word:
 
+    Description: Finds the longest and second-longest compounded words from a list.
+    Parameters:
+    words: A list of words to be processed.
+    Returns: A tuple containing the longest and second-longest compounded words.
 
 
 
