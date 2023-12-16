@@ -35,7 +35,7 @@ Requirements:
 Python 3.x, jupyter notebook
 
 
-Methodology:
+# Methodology:
 
 TrieNode Class
     Description: Represents a node in the trie data structure.
